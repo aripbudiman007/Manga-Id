@@ -92,7 +92,6 @@ router.get('/read/:slug', async (req, res) => {
                         }else{
                             text+= el[i]
                         }
-
                     }
 
                     obj.pages.push(text.trim())
@@ -100,7 +99,6 @@ router.get('/read/:slug', async (req, res) => {
             })
 
             obj.totalPages = obj.pages.length
-
 
             return res.status(200).json(obj)
         }

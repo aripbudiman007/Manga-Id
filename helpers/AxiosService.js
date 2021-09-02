@@ -1,5 +1,4 @@
 const axios = require('axios').default
-const baseUrl = 'https://komiku.id/'
 
 const axiosCookieJarSupport = require('axios-cookiejar-support').default
 axiosCookieJarSupport(axios)
